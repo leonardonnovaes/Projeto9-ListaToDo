@@ -35,3 +35,10 @@ function listarTarefas(){
     }
     document.getElementById("lista").innerHTML = valor;
 }
+
+// FUNÇÃO REMOR TAREFA
+
+function removerTarefa(){
+    tarefas.pop();//remove o ultimo adicionado
+    listarTarefas();
+}
