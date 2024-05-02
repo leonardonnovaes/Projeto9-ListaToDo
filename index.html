@@ -7,15 +7,19 @@
     <title>Projeto 9</title>
 </head>
 <body>
-    <h1>Lista de tarefas</h1>
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
 
-    <p><label for="task">Tarefa</label>
+    <p id="tar"><label for="task">Tarefa</label>
     <input type="text" id="task" size="30px">
     </p>
-    <button id="btnAdicionar" onclick="adicionarTarefa()">Adicionar tarefa</button>
+    
+    <p id="botoes">
+        <button id="btnAdicionar" onclick="adicionarTarefa()">Adicionar tarefa</button>
 
-    <button id="btnRemover" onclick="removerTarefa()">Remover</button>
-
+        <button id="btnRemover" onclick="removerTarefa()">Remover</button>
+    </p>
     <p id="lista"></p>
 
 
